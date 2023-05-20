@@ -58,3 +58,30 @@ footer{
 	justify-content: center;
 	font-size: 1.5rem;
 }
+
+@media(max-width: 800px){
+	#title{
+		font-size: 4vh;
+	}
+	#caption{
+		font-size: 0.8rem;
+		padding: 1rem;
+	}
+	h1.title{
+		font-size: 1.1rem;
+	}
+	#tribute-info{
+		font-size: 1rem;
+	}
+	footer{
+		padding: 1rem;
+		font-size: 1rem;
+		flex-direction: column;
+	}
+	footer a{
+		width: 21rem;
+	}
+	footer a small{
+		width: 25rem;
+	}
+}
